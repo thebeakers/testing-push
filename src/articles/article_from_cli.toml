@@ -1,0 +1,30 @@
+
+title = "Test Article from Rust CLI"
+description = "This is a test article uploaded via a Rust CLI program."
+body = "<p>Hello from Rust! This content has been updated by the CLI test.</p>"
+category = "cli-testing"
+createdAt = "2025-05-21T14:30:00.000Z"
+publishedAt = "2025-05-21T14:35:00.000Z"
+updatedAt = "2025-05-21T14:40:00.000Z" # Example of an updated date
+lastUpdatedAt = "" # Can be empty if not applicable
+readingTime = 3
+
+[image]
+url = "https://placehold.co/600x400/aabbcc/ffffff?text=Test+Image+CLI"
+alt = "Test Image Alt from CLI"
+caption = "Test Image Caption from CLI"
+
+[[authors]]
+name = "Rust CLI Test Script"
+authorBio = "An automated author from a Rust test script."
+slug = "rust-cli-author"
+
+[professor]
+name = "Dr. Rust CLI"
+professorBio = "Overseeing Rust CLI tests."
+slug = "dr-rust-cli"
+
+[[questions]]
+question = "Did this test upload work?"
+answers = ["Yes, it did!", "No, it failed.", "I'm not sure."]
+correct_answer = "Yes, it did!"
